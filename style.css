@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;    
+}
+section {
+    background-color:rgba(245, 250, 202, 0.904);
+    padding: 3rem;
+}
+body {
+    margin: 0 auto;
+    max-width: 80em;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 3rem;
+    color: #555;
+  }
+
+h1,
+   strong {
+    color: #333;
+    font-size: 3rem; 
+    text-align: left;
+ } 
+
+ h2  {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #3b67f7;
+  }
+
+img {
+    max-width: 30%; 
+    height: auto;
+  }
